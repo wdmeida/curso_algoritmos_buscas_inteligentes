@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 class Cidade:
     def __init__(self, nome):
         self.nome = nome
@@ -8,4 +6,3 @@ class Cidade:
         
     def addCidadeAdjacente(self, cidade):
         self.adjacentes.append(cidade)
-
